@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Start task
+        //Start task as
         EarthquakeAsyncTask().execute(USGS_REQUEST_URL)
     }
 
